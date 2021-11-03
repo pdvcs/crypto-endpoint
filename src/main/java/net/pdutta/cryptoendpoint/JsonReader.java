@@ -1,4 +1,4 @@
-package net.pdutta.rocksdemo;
+package net.pdutta.cryptoendpoint;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

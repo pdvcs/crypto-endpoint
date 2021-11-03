@@ -1,4 +1,4 @@
-# RocksDemo
+# CryptoEndpoint
 
 **Compiling**: `mvn package`
 
@@ -15,4 +15,6 @@ mvn install:install-file \
     -Dpackaging=jar -DcreateChecksum=true
 ```
 
-Run `java -classpath target/rocksdemo-0.1.jar:target/lib/* net.pdutta.rocksdemo.App`
+Then run:
+
+`java -classpath target/crypto-endpoint-0.1.jar:target/lib/* net.pdutta.cryptoendpoint.App`

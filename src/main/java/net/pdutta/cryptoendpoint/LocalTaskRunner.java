@@ -1,4 +1,4 @@
-package net.pdutta.rocksdemo;
+package net.pdutta.cryptoendpoint;
 
 import net.pdutta.cryptotool.CryptoTool;
 import net.pdutta.cryptotool.KeyOnDiskSecretProvider;
@@ -161,7 +161,7 @@ public class LocalTaskRunner implements Runnable {
     private String columnFamily;
     private final CryptoTool tool;
     private final JsonReader jsonReader;
-    private static final String SECRET_KEY_FILE = tempDir("rocksdemo_sec.key");
+    private static final String SECRET_KEY_FILE = tempDir("cryptoendpoint_sec.key");
     Logger log = LoggerFactory.getLogger(LocalTaskRunner.class);
 
 }

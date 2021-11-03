@@ -1,4 +1,4 @@
-package net.pdutta.rocksdemo;
+package net.pdutta.cryptoendpoint;
 
 import java.util.Optional;
 

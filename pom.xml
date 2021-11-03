@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.pdutta.sandbox</groupId>
-    <artifactId>rocksdemo</artifactId>
+    <artifactId>crypto-endpoint</artifactId>
     <version>0.1</version>
-    <name>RocksDB-Demo</name>
-    <description>RocksDB Demo</description>
+    <name>crypto-endpoint</name>
+    <description>crypto-endpoint</description>
 
     <properties>
         <java.version>11</java.version>
@@ -121,7 +121,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>net.pdutta.rocksdemo.App</mainClass>
+                    <mainClass>net.pdutta.cryptoendpoint.App</mainClass>
                 </configuration>
             </plugin>
 
